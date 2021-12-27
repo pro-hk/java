@@ -1,0 +1,25 @@
+package app;
+
+import lib.Calculator;
+
+public class GoodCalculator extends Calculator {
+
+	@Override // µ¤¾î¾²±â
+	public int add(int a, int b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int substract(int a, int b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double avg(int[] arr) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

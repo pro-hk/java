@@ -1,0 +1,9 @@
+package lecture;
+
+public class WrapperTest {
+	public static void main(String[] args) {
+		char ch = 'A';
+		String num = "10"
+		System.out.println(Character.toLowerCase(ch));
+	}
+}

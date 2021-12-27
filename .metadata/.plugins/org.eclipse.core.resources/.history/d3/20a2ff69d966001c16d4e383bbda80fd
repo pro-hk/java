@@ -1,0 +1,12 @@
+package practice;
+
+import java.util.Calendar;
+
+public class Ex05 {
+	public static void main(String[] args) {
+		Calendar now = Calendar.getInstance();
+		int hour = now.get(Calendar.HOUR);
+		int minute = now.get(Calendar.MINUTE)
+		System.out.println(hour);
+	}
+}

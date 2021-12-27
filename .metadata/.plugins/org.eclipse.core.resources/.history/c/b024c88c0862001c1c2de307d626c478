@@ -1,0 +1,13 @@
+
+public class chap0101 {
+
+	public static void main(String[] args) {
+		int num = 10;
+		char c ='j';
+		String str = "Hello";
+		float f = 0.1234f;  // float형 실수 : 끝에 f
+		double d = 0.1234; 
+		num = 015; // 0 : 8진수,  0x : 16진수 -- 10이상 abcdef, 0b : 2진수 
+		System.out.println(num);
+	}
+}

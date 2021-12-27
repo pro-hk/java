@@ -1,0 +1,16 @@
+package lecture;
+
+public class StringTest {
+	public static void main(String[] args) {
+		String str01 = "abcd";
+		char strList[] = {'a','b','c','d'};
+		String str02 = new String(strList);
+		String str03 = new String("abcd");
+		System.out.println(str01.equals(str03));  // ºñ±³´Â equals
+		System.out.println(str01==str02);  // false\
+		System.out.println(str01.charAt(0)); // a
+		System.out.println(str01.contains("ab")); // true
+		System.out.println(str01.contains("ac")); // false
+		System.out.println(str01.length()); // 4
+	}
+}

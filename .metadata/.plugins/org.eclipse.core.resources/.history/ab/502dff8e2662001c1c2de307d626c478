@@ -1,0 +1,15 @@
+package Practice2;
+
+import java.util.Scanner;
+
+public class Practice2_3 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("금액을 입력하시오");
+		int price = scanner.nextInt();
+		int newprice = 0;
+		if (price >= 50000) {
+			System.out.println("오만원권 " + price / 50000 + "매");
+		}
+			}
+}

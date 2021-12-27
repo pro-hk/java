@@ -1,0 +1,17 @@
+package practice;
+
+import java.util.Calendar;
+
+public class Ex05 {
+	public static void main(String[] args) {
+		Calendar now = Calendar.getInstance();
+		int hour = now.get(Calendar.HOUR);
+		int minute = now.get(Calendar.MINUTE);
+		int hour24 = now.get(Calendar.HOUR_OF_DAY);
+		System.out.println("현재 시간은 "+hour+"시 "+minute+"분입니다.");
+		if(hour24>=4 && hour24 < 12) System.out.println("Good Morning");
+		else if(hour24>=12 && hour24 < 18) System.out.println("Good Afternoon");
+		else if(hour24>=18 && hour24 < 22) System.out.println("Good Evening");
+		else System.out.println("Good Night");
+	}
+}

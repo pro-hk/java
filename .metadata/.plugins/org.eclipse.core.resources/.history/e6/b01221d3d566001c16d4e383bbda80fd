@@ -1,0 +1,18 @@
+package practice;
+
+class Circle{
+	private int x,y,radius;
+
+	public Circle(int x, int y, int radius) {
+		this.x = x;
+		this.y = y;
+		this.radius = radius;
+	}
+	
+}
+
+public class Ex02 {
+	public static void main(String[] args) {
+		
+	}
+}

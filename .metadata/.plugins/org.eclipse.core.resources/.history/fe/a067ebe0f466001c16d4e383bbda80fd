@@ -1,0 +1,26 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Ex11 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print(">>");
+		String words = scanner.nextLine();
+		String bufferWords[] = words.split(" ");
+		while(true) {
+		System.out.print("명령: ");
+		String commendWord = scanner.nextLine();
+		if(commendWord.equals("그만")) {
+			System.out.println("종료합니다");
+			break;
+		}
+		
+		String bufferCommendWord[] = commendWord.split("!");
+		bufferWords[0].equals(bufferCommendWord[0])
+		
+		
+		System.out.println("잘못된 명령입니다!");
+		}
+	}
+}

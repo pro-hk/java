@@ -1,0 +1,11 @@
+package lecture;
+
+class Point{
+	private int x,y;
+}
+
+public class ObjectTest {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+
+public class chap0101 {
+
+	public static void main(String[] args) {
+		int num = 10;
+		char c ='j';
+		String str = "Hello";
+		num = 015;
+		System.out.println(num);
+	}
+}

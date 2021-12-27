@@ -1,0 +1,12 @@
+package lecture;
+
+public class StringTest {
+	public static void main(String[] args) {
+		String str01 = "abcd";
+		char strList[] = {'a','b','c','d'};
+		String str02 = new String(strList);
+		String str03 = new String("abcd");
+		System.out.println(str01.equals(str03));
+		System.out.println(str01==str02);
+	}
+}

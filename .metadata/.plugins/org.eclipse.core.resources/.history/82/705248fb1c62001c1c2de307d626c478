@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Grade {
+
+	public static void main(String[] args) {
+		// Scanner import해서 점수를 정수로 입력받기
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("점수를 입력하세요");
+		int grade = scanner.nextInt();
+		String result = null;
+		if (grade >= 90) {
+			result = "A";
+		} else if (grade >= 80) {
+			result = "B";
+		} else if (grade >= 70) {
+			result = "C";
+		} else if (grade >= 60) {
+			result = "D";
+		} else {
+			result = "E";
+		}
+		System.out.println("당신의 학점은 === " + result);
+		scanner.close();
+	}
+
+}

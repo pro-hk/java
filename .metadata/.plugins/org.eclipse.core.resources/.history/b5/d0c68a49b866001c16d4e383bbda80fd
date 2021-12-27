@@ -1,0 +1,12 @@
+package lecture;
+
+class Rect {
+	private int width;
+	private int height;
+	
+	// 생성자 함수
+	public Rect(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+}

@@ -1,0 +1,7 @@
+package app;
+
+import lib.Calculator;
+
+public class GoodCalculator extends Calculator {
+	
+}

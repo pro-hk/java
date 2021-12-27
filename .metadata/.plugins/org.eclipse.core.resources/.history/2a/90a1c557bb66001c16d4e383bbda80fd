@@ -1,0 +1,13 @@
+package lecture;
+
+public class WrapperTest {
+	public static void main(String[] args) {
+		char ch01 = 'A';
+		char ch02 = '4';
+		char ch03 = 'F';
+		String num = "10";
+		System.out.println(Character.toLowerCase(ch01)); // a
+		System.out.println(num+10); // 1010
+		System.out.println(Integer.parseInt(num)+10);  //20
+	}
+}

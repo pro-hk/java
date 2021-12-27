@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class GradeSwitch {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int score = scanner.nextInt();
+		int result = score / 10;
+		System.out.println(result);
+		// ¹ö¸² == Math.floor
+		scanner.close();
+	}
+
+}

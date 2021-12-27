@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+		System.out.println("뭔가를 입력 받고 싶어요.");
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.next();
+		System.out.println("나의 이름은" + name + "입니다.");
+		scanner.close();
+	}
+
+}

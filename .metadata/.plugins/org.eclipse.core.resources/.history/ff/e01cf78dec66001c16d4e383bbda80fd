@@ -1,0 +1,18 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Ex09 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		while(true) {
+		System.out.print("철수[가위(1), 바위(2), 보(3), 끝내기(4)]>>");
+		String array[] = {"가위", "바위", "보"};
+		int user = scanner.nextInt();
+		int computer = (int)Math.floor(Math.random()*3) + 1;
+		System.out.println(user+"=="+computer);
+		if(user == 4) break; 
+		}
+		scanner.close();
+	}
+}

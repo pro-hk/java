@@ -1,0 +1,15 @@
+package lecture;
+
+import java.util.Calendar;
+
+public class CalendarTest {
+	public static void main(String[] args) {
+//		Calendar now = new Calendar(); 
+		Calendar now = Calendar.getInstance();
+		int year = now.get(Calendar.YEAR);
+		int month = now.get(Calendar.MONTH);
+		int date = now.get(Calendar.DATE);
+		System.out.println(year+"=="+month);
+		
+	}
+}
