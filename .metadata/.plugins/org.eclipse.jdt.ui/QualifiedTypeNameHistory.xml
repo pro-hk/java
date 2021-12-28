@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="lib.Calculator"/>
-    <fullyQualifiedTypeName name="app.GoodCalculator"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="base.Shape"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="lecture.DoWhile"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="lecture.MethodOverloading"/>
+    <fullyQualifiedTypeName name="lecture.Book"/>
+    <fullyQualifiedTypeName name="lecture.CurrentConverter"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="lecture.PhoneInterface"/>
+    <fullyQualifiedTypeName name="lecture.MobilePhoneInterface"/>
+    <fullyQualifiedTypeName name="lecture.MP3Interface"/>
+    <fullyQualifiedTypeName name="lecture.IPhone"/>
+    <fullyQualifiedTypeName name="lecture.MusicPhoneInterface"/>
 </qualifiedTypeNameHistroy>
