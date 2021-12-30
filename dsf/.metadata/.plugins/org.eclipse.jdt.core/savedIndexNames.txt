@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Users\USER\Desktop\java-lecture\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2380175872.index
-6608396.index
-2578204313.index

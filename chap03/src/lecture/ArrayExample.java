@@ -35,5 +35,6 @@ public class ArrayExample {
 		}
 		System.out.println(arr03[2]);
 		System.out.println(max);  // 제일 큰 수 출력하기
+		scanner.close();
 	}
 }

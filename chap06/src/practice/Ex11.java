@@ -29,5 +29,6 @@ public class Ex11 {
 			}
 			System.out.println("잘못된 명령입니다!");
 		}
+		scanner.close();
 	}
 }

@@ -19,5 +19,6 @@ public class Ex08 {
 			}
 			System.out.print(arr[i] + " ");
 		}
+		scanner.close();
 	}
 }

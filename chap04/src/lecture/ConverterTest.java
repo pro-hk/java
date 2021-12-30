@@ -9,5 +9,6 @@ public class ConverterTest {
 		CurrentConverter.setRate(scanner.nextDouble());
 		System.out.println("1000000원은 달러로 "+CurrentConverter.toDollar(1000000));
 		System.out.println("$100은 원화로 "+CurrentConverter.toKRWon(100));
+		scanner.close();
 	}
 }
