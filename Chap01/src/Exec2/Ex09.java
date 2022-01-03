@@ -11,5 +11,6 @@ public class Ex09 {
 	double radius = scanner.nextDouble();
 	double x = scanner.nextDouble();
 	double y = scanner.nextDouble();
+	scanner.close();
 }
 }

@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="lib.Calculator"/>
-    <fullyQualifiedTypeName name="app.GoodCalculator"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="lecture.DoWhile"/>
+    <fullyQualifiedTypeName name="lecture.MethodOverloading"/>
+    <fullyQualifiedTypeName name="lecture.Book"/>
+    <fullyQualifiedTypeName name="lecture.CurrentConverter"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="base.Shape"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="lecture.PhoneInterface"/>
+    <fullyQualifiedTypeName name="lecture.MobilePhoneInterface"/>
+    <fullyQualifiedTypeName name="lecture.MP3Interface"/>
+    <fullyQualifiedTypeName name="lecture.IPhone"/>
+    <fullyQualifiedTypeName name="lecture.MusicPhoneInterface"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="practice.Ex05.Student"/>
+    <fullyQualifiedTypeName name="practice.Ex05.StudentManagerHashmap"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="practice.Ex07.Scholarship"/>
+    <fullyQualifiedTypeName name="practice.Ex11.Nation"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.InaccessibleObjectException"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="lecture.ChangeBg"/>
@@ -18,4 +37,12 @@
     <fullyQualifiedTypeName name="lecture.MoveLabel.MyKeyListener"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyListener"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+=======
+    <fullyQualifiedTypeName name="lecture.FileOutputStreamTest"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+>>>>>>> f86e8cc833d78e1841b15b6c57c54564d667e212
 </qualifiedTypeNameHistroy>
