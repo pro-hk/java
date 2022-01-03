@@ -1,6 +1,0 @@
-package lecture;
-
-public class Rect {
-	private int width;
-	private int height;
-}

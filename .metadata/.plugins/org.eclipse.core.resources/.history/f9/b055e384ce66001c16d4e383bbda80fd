@@ -1,8 +1,0 @@
-package lecture;
-
-public class MathTest {
-	public static void main(String[] args) {
-		System.out.println(Math.abs(-1));
-		System.out.println(Math.cos(Math.PI));
-	}
-}
