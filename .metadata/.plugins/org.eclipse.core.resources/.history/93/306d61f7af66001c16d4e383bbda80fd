@@ -1,7 +1,0 @@
-package app;
-
-public class CalcTest extends GoodCalculator {
-	public static void main(String[] args) {
-		
-	}
-}

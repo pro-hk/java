@@ -1,7 +1,0 @@
-package app;
-
-public class GraphicEditor {
-	public static void main(String[] args) {
-		Shape shape = new Circle();
-	}
-}
