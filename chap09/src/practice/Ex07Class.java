@@ -51,8 +51,8 @@ class SouthPanel extends JPanel{
 	}
 }
 
-public class Ex7Class extends JFrame {
-	public Ex7Class() {
+public class Ex07Class extends JFrame {
+	public Ex07Class() {
 		setTitle("°è»ê±â");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container contentPane = this.getContentPane();
@@ -71,6 +71,6 @@ public class Ex7Class extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Ex7Class();
+		new Ex07Class();
 	}
 }
