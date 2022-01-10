@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="javax.swing.JComponent"/>
+    <fullyQualifiedTypeName name="practice.Ex04.MyMouseListner"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
+    <fullyQualifiedTypeName name="java.awt.ImageCapabilities"/>
+    <fullyQualifiedTypeName name="java.awt.event.KeyListener"/>
+    <fullyQualifiedTypeName name="practice.Ex05.MyPanel.MyKeyListener"/>
+    <fullyQualifiedTypeName name="practice.Ex06_1.MyPanel"/>
+    <fullyQualifiedTypeName name="practice.Ex06_2.MyPanel"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="practice.Ex08.MyPanel"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseMotionListener"/>
+    <fullyQualifiedTypeName name="practice.Ex08.Circle"/>
+    <fullyQualifiedTypeName name="practice.Ex08.MyPanel.MyMouseListener"/>
+    <fullyQualifiedTypeName name="practice.Ex11.InputPanel"/>
+    <fullyQualifiedTypeName name="lecture.TimerThread.MyTimer"/>
+>>>>>>> 6c0af301c8f9ec773b57db628843a5656b760ac0
     <fullyQualifiedTypeName name="java.awt.desktop.ScreenSleepEvent"/>
     <fullyQualifiedTypeName name="lecture.TimerRunnable"/>
     <fullyQualifiedTypeName name="lecture.FlickLabel"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTableHeaderUI"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+=======
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+>>>>>>> 6c0af301c8f9ec773b57db628843a5656b760ac0
     <fullyQualifiedTypeName name="lecture.RandomTest"/>
     <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
     <fullyQualifiedTypeName name="lecture.SharedBoard"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="practice.CountThread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="practice.CirclePanel"/>
-    <fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
-    <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="practice.gamePanel"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -60,4 +80,39 @@
     <fullyQualifiedTypeName name="java.awt.Image"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+=======
+    <fullyQualifiedTypeName name="practice.gamePanel"/>
+    <fullyQualifiedTypeName name="java.awt.event.KeyAdapter"/>
+    <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+    <fullyQualifiedTypeName name="practice.BallonPanel"/>
+    <fullyQualifiedTypeName name="practice.BallonPanel.BallonThread"/>
+    <fullyQualifiedTypeName name="javax.swing.JProgressBar"/>
+    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+    <fullyQualifiedTypeName name="java.awt.Graphics"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="practice.Ex09.GamePanel"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="practice.Ex09.GameThread"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextPane"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JTabbedPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+    <fullyQualifiedTypeName name="java.awt.Font"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="practice.Ex11.GamePanel"/>
+    <fullyQualifiedTypeName name="practice.Ex11.GamePanel.WordsThread"/>
+>>>>>>> 6c0af301c8f9ec773b57db628843a5656b760ac0
 </qualifiedTypeNameHistroy>
