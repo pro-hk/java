@@ -12,15 +12,6 @@ INDEX VERSION 1.131+C:\Users\USER\Desktop\java-lecture\.metadata\.plugins\org.ec
 152263432.index
 1775555309.index
 4041048919.index
-<<<<<<< HEAD
-1000382422.index
-517202555.index
-2279257025.index
-1857623796.index
-1755401707.index
-4004214287.index
-=======
 4004214287.index
 2380175872.index
 130601786.index
->>>>>>> 6c0af301c8f9ec773b57db628843a5656b760ac0
