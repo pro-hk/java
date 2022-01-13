@@ -21,6 +21,9 @@ public class Game extends Thread {
 	private int count = 0;
 	private int bulletDelay = 5;
 	private int enemyDelay = 10;
+	
+	public Boom boom;
+	private ArrayList<Boom> boomList = new ArrayList<>();
 
 	private Image endingImage = new ImageIcon("images/ending_page.jpg").getImage();
 	private Image gameImage = new ImageIcon("images/game_page.jpg").getImage();
@@ -68,12 +71,23 @@ public class Game extends Thread {
 			makeEnemy();
 			enemyProcess();
 			ItemProcess();
+			boomProcess();
+		}
+	}
+	
+	public void boomProcess() {
+		for(int i=0; i < boomList.size(); i++) {
+			boom = boomList.get(i);
+			boom.explosion();
+			if(boom.count>10) {
+				boomList.remove(boom);
+			}
 		}
 	}
 
 	public void makeItem(int x, int y, int num) {
 		if (num == 0) {
-			heart = new Heart(x, y);
+			heart = new Heart(x, y, 10);
 			heartList.add(heart);
 		}
 		if (num == 1) {
@@ -83,19 +97,22 @@ public class Game extends Thread {
 	}
 
 	public void ItemProcess() {
-		for (int k = 0; k < heartList.size(); k++) {
-			heart = heartList.get(k);
+		for (int i = 0; i < heartList.size(); i++) {
+			heart = heartList.get(i);
 			heart.moveDown();
 			if (intersects(
 					new Rectangle(player.x, player.y, player.width, player.height),
 					new Rectangle(heart.x, heart.y, heart.width, heart.height)
 			)) {
 				heartList.remove(heart);
-				if (player.hp < maxhp) player.hp += 5;
+				if (player.hp < maxhp) player.hp += heart.hp;
 			};
+			if (heart.y > 800 + 64) {
+				heartList.remove(heart);
+			}
 		}
-		for (int k = 0; k < speedList.size(); k++) {
-			speed = speedList.get(k);
+		for (int i = 0; i < speedList.size(); i++) {
+			speed = speedList.get(i);
 			speed.moveDown();
 			if (intersects(
 					new Rectangle(player.x, player.y, player.width, player.height),
@@ -104,6 +121,9 @@ public class Game extends Thread {
 				speedList.remove(speed);
 				if(bulletDelay>2) bulletDelay -= 0.2;
 			};
+			if (speed.y > 800 + 64) {
+				speedList.remove(speed);
+			}
 		}
 	}
 
@@ -169,6 +189,8 @@ public class Game extends Thread {
 					randomItem = (int) (Math.random() * 10);
 					makeItem(enemy.x, enemy.y, randomItem);
 					enemyList.remove(enemy);
+					boom = new Boom(enemy.x,enemy.y);
+					boomList.add(boom);
 				}
 			}
 			if (playerBullet.y < -17)
@@ -232,6 +254,13 @@ public class Game extends Thread {
 	public void drawGaming(Graphics g) {
 		g.drawImage(gameImage, 0, 0, null);
 	}
+	
+	public void drawBoom(Graphics g) {
+		for(int i=0; i<boomList.size();i++) {
+			boom = boomList.get(i);
+			g.drawImage(boom.image, boom.x, boom.y, null);
+		}
+	}
 
 	public void drawAll(Graphics g) {
 		if (isOver)
@@ -242,6 +271,7 @@ public class Game extends Thread {
 			drawPlayerBullet(g);
 			drawEnemy(g);
 			drawInfo(g);
+			drawBoom(g);
 		}
 	}
 }

@@ -10,10 +10,9 @@ public class Enemy {
 		public int y;
 		public int width;
 		public int heigth;
-		public int speedY = 10;
+		public int speedY = 5;
 		public int hp = 30;
 		public int score = 0;
-		public int shootDelay = 5;
 		public int loadX;
 		public int radius;
 		public double t = 0;
