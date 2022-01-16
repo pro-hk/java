@@ -5,17 +5,16 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class Player {
-	public Image image = new ImageIcon("images/player.png").getImage();
+	private Image image = new ImageIcon("images/player.png").getImage();
 	private int x;
 	private int y;
 	private int width = image.getWidth(null);
 	private int height = image.getHeight(null);
-	private int speedX = 10;
+	private int speedX = 7;
 	
-	public Player(int x){
-		image = new ImageIcon("images/player.png").getImage();
+	public Player(int x, int y){
 		this.x = x;
-		y = 600-64;
+		this.y = y;
 	}
 	
 	public void moveLeft() {
@@ -26,12 +25,28 @@ public class Player {
 		x += speedX;
 		image = new ImageIcon("images/player-right.png").getImage();
 	}
+	public void moveStand() {
+		image = new ImageIcon("images/player.png").getImage();
+	}
 	
 	public int getX() {
 		return x;
 	}
 	
-//	public void changeImage(String direction) {
-//		image = new ImageIcon("images/player-"+direction+".png").getImage();
-//	}
+	public int getY() {
+		return y;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public Image getImage() {
+		return image;
+	}
+
 }

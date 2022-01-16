@@ -10,7 +10,6 @@ public class GameMain extends JFrame {
 		GamePanel gamePanel = new GamePanel();
 		setContentPane(gamePanel);
 		
-		setLocationRelativeTo(null);
 		pack();
 		setResizable(false);
 		setVisible(true);
