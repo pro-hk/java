@@ -10,15 +10,13 @@ public class Poop {
 	private int y;
 	private int width = image.getWidth(null);
 	private int height = image.getHeight(null);
-	private int speed = 3;
-	private int speedY = (int)(Math.random()*5+speed);
 	
 	public Poop(int x,int y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public void moveDown() {
+	public void moveDown(int speedY) {
 		y += speedY;
 	}
 	
@@ -36,10 +34,6 @@ public class Poop {
 	
 	public int getHeigth() {
 		return height;
-	}
-	
-	public int getSpeed() {
-		return speed;
 	}
 	
 	public Image getImage() {

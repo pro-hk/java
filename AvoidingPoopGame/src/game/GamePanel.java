@@ -6,6 +6,9 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 import javax.swing.JPanel;
 
@@ -79,8 +82,8 @@ public class GamePanel extends JPanel {
 			game.drawPlayer(g);
 			game.drawPoop(g);
 		} else {
-			g.drawString("당신은 "+game.getPoint()+"개의 똥을 피했습니다.", 60, 200);
-			g.drawString("다시 시작하려면 R키를 누르세요",60,220);
+			g.drawString("당신은 "+game.getPoint()+"개의 똥을 피했습니다.", 70, 220);
+			g.drawString("다시 시작하려면 R키를 누르세요",60,240);
 		}
 		repaint();
 	}
